@@ -1,14 +1,22 @@
-import React from "react"
+import React from 'react';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from '../components/Layout';
 
-const NotFoundPage = () => (
+const IndexPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <section id="one" className="main-container">
+      <div className="container">
+        <div className="content">
+          <header className="major">
+            <h2>NOT FOUND</h2>
+          </header>
+          <section>
+            <h4>Not a valid URL</h4>
+          </section>
+        </div>
+      </div>
+    </section>
   </Layout>
-)
+);
 
-export default NotFoundPage
+export default IndexPage;
