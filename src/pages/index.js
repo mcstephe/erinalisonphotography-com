@@ -95,11 +95,17 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Meet the Photographer</h2>
+          <h2>Magna sed nullam nisl adipiscing</h2>
         </header>
         <div className="content">
           <p>
-            Hi! I’m Erin; a wife, a mother and a photographer. I fell in love with photography more than 10 years ago. I have always dreamed of turning my passion into a business and now I...
+            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
+            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
+            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
+            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
+            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
+            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
@@ -109,15 +115,43 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Portfolio</h2>
+          <h2>Feugiat consequat tempus ultrices</h2>
         </header>
         <div className="content">
-          <p>           
+          <p>
+            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
+            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
+            condimentum.
+          </p>
+          <ul className="feature-icons">
+            <li className="icon fa-laptop">Consequat tempus</li>
+            <li className="icon fa-bolt">Etiam adipiscing</li>
+            <li className="icon fa-signal">Libero nullam</li>
+            <li className="icon fa-gear">Blandit condimentum</li>
+            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
+            <li className="icon fa-code">Nibh amet venenatis</li>
+          </ul>
+          <p>
+            Vehicula ultrices sed ultricies condimentum. Magna sed etiam
+            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
+            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Ultrices erat magna sed condimentum</h2>
+        </header>
+        <div className="content">
+          <p>
+            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
+            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
           </p>
 
           <section>
             <header>
-              <h3>Nature</h3>
+              <h3>Erat aliquam</h3>
               <p>
                 Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
                 etiam consequat, et lorem adipiscing sed dolor sit amet,
@@ -132,7 +166,7 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Homecomings</h3>
+              <h3>Nisl consequat</h3>
               <p>
                 Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
                 aliquam sed facilisis ante interdum congue. Integer mollis, nisl
@@ -149,7 +183,7 @@ const IndexPage = () => (
 
           <section>
             <header>
-              <h3>Family</h3>
+              <h3>Lorem gravida</h3>
               <p>
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem
                 feugiat tempus aenean ornare velit lacus, ac varius sed enim
@@ -163,6 +197,30 @@ const IndexPage = () => (
               </div>
             </div>
           </section>
+        </div>
+      </section>
+
+      <section>
+        <header>
+          <h2>Duis sed adpiscing veroeros amet</h2>
+        </header>
+        <div className="content">
+          <p>
+            <strong>Elements</strong> This starter contains all elements for a
+            page. Check it out
+          </p>
+          <ul className="actions">
+            <li>
+              <Link to="/Elements" className="button primary large">
+                Goto Elements Page
+              </Link>
+            </li>
+            {/* <li>
+              <a href="/#" className="button large">
+                Learn More
+              </a>
+            </li> */}
+          </ul>
         </div>
       </section>
 
